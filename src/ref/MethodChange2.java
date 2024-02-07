@@ -2,6 +2,7 @@ package ref;
 
 public class MethodChange2 {
     /*참조형과 메서드 호출*/
+    /*여기까지 2/7일 리뷰완*/
     public static void main(String[] args){
         Data dataA = new Data();
         dataA.value = 10;
