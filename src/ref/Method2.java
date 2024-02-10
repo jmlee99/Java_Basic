@@ -2,6 +2,8 @@ package ref;
 
 public class Method2 {
     public static void main(String[] args) {
+        /*메서드와 참조형 클래스 활용 코드 리뷰
+          메서드 리턴 값 받아오고 주는 부분 다시 공부 필요*/
         Student student1 = createStudent("학생1", 15, 90);
         Student student2 = createStudent("학생2", 16, 80);
 
