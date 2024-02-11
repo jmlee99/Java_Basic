@@ -16,6 +16,10 @@ public class ValueReturn {
         * 지역 변수 : 수동 초기화
         * - 지역변수는 항상 직접 초기화해야 한다.
         * */
+
+        /*앞에 부터 다시 코드 리뷰
+          이해 안가는 부분 다시 복습 2/11*/
+
         InitData data = new InitData();
         System.out.println("value1 = " + data.value1); // 자동으로 초기화
         System.out.println("value2 = " + data.value2); // 클래스안에서 미리 초기화
