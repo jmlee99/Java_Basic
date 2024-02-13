@@ -9,6 +9,7 @@ public class NullMain1 {
     * null은 값이 존재하지 않는, 없다는 뜻이다.
     * 코드를 통해서 null값에 대해 알아보자.
     */
+    /*2/13 여기까지 한 번 복습 이해에 중점*/
     Data data = null;
     System.out.println("1. data = " + data);
     data = new Data();
