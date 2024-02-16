@@ -7,8 +7,14 @@ public class ProductOrderMain1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("입력할 주문의 개수를 입력하세요: ");
         int n = scanner.nextInt();
+        scanner.nextLine();
 
-        ProductOrder[] orders = new ProductOrder[3];
+        ProductOrder[] orders = new ProductOrder[n];
+        for (int i = 0; i < orders.length; i++) {
+
+        }
+
+
         orders[0] = createOrder("두부", 2000, 2);
         orders[1] = createOrder("김치", 5000, 1);
         orders[2] = createOrder("콜라", 1500, 2);
