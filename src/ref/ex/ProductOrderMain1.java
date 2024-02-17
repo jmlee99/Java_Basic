@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ProductOrderMain1 {
     public static void main(String[] args) {
+    /* class의 ProductOrderMain2와 비교하며 코드 리뷰 */
         Scanner scanner = new Scanner(System.in);
         System.out.println("입력할 주문의 개수를 입력하세요: ");
         int n = scanner.nextInt();
